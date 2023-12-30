@@ -1,1 +1,32 @@
-vipul bhayya bhigi billi hai
+########initialize folder as git repository
+
+git init
+
+########  change branch to main
+
+git branch -M main
+
+####### adding location 
+
+git remote add origin https://github.com/vipul886/gittuto.git
+
+####### check status of folder
+
+git status
+
+###### add changed and updated files to stagging area
+
+git add .
+
+#####commiting on stagged files
+
+git commit -m "messg"
+
+######pushing to ceentra repo
+
+git push -u origin main
+
+#######pulling changes done on central repo
+
+git pull
+
